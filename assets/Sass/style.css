@@ -1,0 +1,772 @@
+/* ============================================== Navbar ===================================================  */
+/* ============= TopNav ==========  */
+#TopNav .navbar-brand {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  line-height: inherit;
+  white-space: nowrap;
+  color: #207FBF;
+}
+#TopNav .navbar-brand i {
+  color: #E8524B;
+}
+#TopNav .navbar-brand span {
+  color: #E8524B;
+}
+#TopNav .navbar-brand img {
+  width: 90px;
+}
+#TopNav .navbar-nav .nav-item {
+  margin-right: 15px;
+  position: relative;
+}
+#TopNav .navbar-nav .nav-item .nav-link {
+  color: rgb(51, 49, 49);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+#TopNav .navbar-nav .nav-item .nav-link:hover {
+  color: #E8524B;
+}
+#TopNav .navbar-nav .nav-item .nav-link:hover .dropdown-menu {
+  display: block;
+}
+#TopNav .navbar-nav .nav-item .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+#TopNav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  font-weight: 500;
+}
+#TopNav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  color: #E8524B;
+  background-color: transparent;
+}
+#TopNav .navbar-nav .nav-item #BookNow {
+  background-color: #E8524B;
+  color: white;
+  padding: 2px 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+#TopNav .navbar-nav .nav-item i {
+  color: #E8524B;
+}
+#TopNav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#ModalBooking .modal-content .modal-header {
+  background-color: #E8524B;
+  color: white;
+}
+#ModalBooking .modal-content input {
+  background-color: #f2f2f2;
+  box-shadow: none;
+}
+#ModalBooking .modal-content textarea {
+  background-color: #f2f2f2;
+  box-shadow: none;
+}
+#ModalBooking .modal-content button {
+  background-color: #E8524B;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 0;
+}
+
+/* ================================ Caresoul ==============================  */
+#bannerCaresoul {
+  position: relative;
+}
+#bannerCaresoul .carousel-inner .carousel-item {
+  height: 80vh;
+}
+#bannerCaresoul .carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+#bannerCaresoul .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#bannerCaresoul .carousel-inner .carousel-item .carousel-caption i {
+  font-size: 40px;
+  color: #E8524B;
+}
+#bannerCaresoul .carousel-inner .carousel-item .carousel-caption h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#bannerCaresoul .carousel-inner .carousel-item .carousel-caption h1 span {
+  color: #E8524B;
+}
+#bannerCaresoul .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 22px;
+}
+#bannerCaresoul .carousel-control-prev-icon,
+#bannerCaresoul .carousel-control-next-icon {
+  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
+}
+#bannerCaresoul #CaresoulBottomInfo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#bannerCaresoul #CaresoulBottomInfo .card {
+  border-radius: 10px;
+}
+#bannerCaresoul #CaresoulBottomInfo .card input {
+  background-color: #f2f2f2;
+}
+#bannerCaresoul #CaresoulBottomInfo .card input:focus {
+  border-color: #E8524B;
+}
+#bannerCaresoul #CaresoulBottomInfo .card label {
+  color: #207FBF;
+}
+#bannerCaresoul #CaresoulBottomInfo .card i {
+  color: #E8524B;
+  margin-right: 10px;
+}
+#bannerCaresoul #CaresoulBottomInfo .card .btn {
+  background-color: #E8524B;
+  color: white;
+  padding: 5px 40px;
+}
+
+/* =========================================================== Sections ====================================================  */
+/* ============= About Us ==========  */
+#AboutUs {
+  padding: 80px 0px;
+  background-color: #f2f2f2;
+}
+#AboutUs p {
+  font-size: 18px;
+}
+#AboutUs .btn {
+  background-color: #E8524B;
+  color: white;
+}
+
+/* ============= Destination ==========  */
+#destination {
+  padding: 80px 0px 0px 0px;
+}
+#destination #DestinationNav {
+  margin-top: 40px;
+}
+#destination #DestinationNav .nav-tabs .nav-link {
+  border: 0;
+  color: black;
+  border-radius: 0;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+#destination #DestinationNav .nav-tabs .nav-link.active {
+  border-bottom: 2px solid #E8524B;
+  font-weight: 500;
+}
+#destination #DestinationNav #destinationNavTab .destination-item img {
+  transition: 0.5s;
+  height: 28vh;
+  width: 100%;
+}
+#destination #DestinationNav #destinationNavTab .destination-item:hover img {
+  transform: scale(1.3);
+}
+#destination #DestinationNav #destinationNavTab .destination-overlay {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+  z-index: 1;
+}
+#destination #DestinationNav #destinationNavTab .destination-overlay span {
+  font-weight: 600;
+}
+#destination #DestinationNav #destinationNavTab .destination-item:hover .destination-overlay {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-width: 30px;
+}
+
+/* ============= vacations ==========  */
+#VancationSection {
+  padding-top: 2vh;
+}
+#VancationSection .card {
+  overflow: hidden;
+  transition: 0.5s;
+}
+#VancationSection .card .image-container {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#VancationSection .card .image-container img {
+  transform: scale(1);
+  transition: transform 0.65s;
+  height: 25vh;
+  width: 100%;
+}
+#VancationSection .card .image-container img:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+#VancationSection .card .card-footer {
+  background-color: white;
+  text-align: center;
+}
+#VancationSection .card .card-footer p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+#VancationSection .card .card-footer h6 {
+  font-size: 18px;
+}
+#VancationSection .card:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+#VancationSection .card:hover img {
+  transform: scale(1.1);
+}
+
+/* ============= packages ==========  */
+#packages {
+  padding: 80px 0px 0px 0px;
+}
+#packages .nav-item .nav-link {
+  border: 1px solid #E8524B;
+  padding: 8px 28px;
+  margin-right: 20px;
+  color: black;
+  margin-bottom: 5px;
+}
+#packages .nav-item .nav-link.active {
+  background-color: white;
+  color: #E8524B;
+  font-weight: 500;
+  font-size: 15px;
+}
+#packages .tab-content {
+  margin-top: 30px;
+}
+#packages .tab-content .card {
+  cursor: pointer;
+}
+#packages .tab-content .card img {
+  height: 10vh;
+  width: 100%;
+  cursor: pointer;
+}
+#packages .tab-content .card:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ============= Luxury Trains ==========  */
+#LuxuryTrains {
+  padding: 80px 0px 0px 0px;
+}
+#LuxuryTrains #destinationNavTab .destination-item img {
+  transition: 0.5s;
+  height: 28vh;
+  width: 100%;
+}
+#LuxuryTrains #destinationNavTab .destination-item:hover img {
+  transform: scale(1.3);
+}
+#LuxuryTrains #destinationNavTab .destination-overlay {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+  z-index: 1;
+}
+#LuxuryTrains #destinationNavTab .destination-overlay span {
+  font-weight: 600;
+}
+#LuxuryTrains #destinationNavTab .destination-item:hover .destination-overlay {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-width: 30px;
+}
+
+/* ============= Luxury Hotels ==========  */
+#LuxuryHotels {
+  padding: 80px 0px 0px 0px;
+}
+#LuxuryHotels #destinationNavTab .destination-item img {
+  transition: 0.5s;
+  height: 28vh;
+  width: 100%;
+}
+#LuxuryHotels #destinationNavTab .destination-item:hover img {
+  transform: scale(1.3);
+}
+#LuxuryHotels #destinationNavTab .destination-overlay {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+  z-index: 1;
+}
+#LuxuryHotels #destinationNavTab .destination-overlay span {
+  font-weight: 600;
+}
+#LuxuryHotels #destinationNavTab .destination-item:hover .destination-overlay {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-width: 30px;
+}
+
+/* ============= SignUp ==========  */
+#SignUp {
+  padding: 90px 0;
+}
+#SignUp .bg-registration {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/trains.cms), no-repeat center center;
+  background-size: cover;
+}
+#SignUp .bg-registration .text-primary {
+  color: #E8524B !important;
+}
+#SignUp .bg-registration .bg-primary {
+  background-color: #207FBF !important;
+}
+#SignUp .bg-registration .btn-primary {
+  background-color: #207FBF;
+  padding: 12px 20px;
+  border-color: #207FBF;
+  font-size: 18px;
+  font-weight: 500;
+}
+#SignUp .card .card-body {
+  padding: 20px;
+}
+
+/* ============= Image Gallery Modal ==========  */
+/* Gallery Modal */
+#galleryModal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: auto;
+  /* Styles for the previous and next buttons */
+  /* Hover styles for the buttons */
+  /* Modal Content (Image) */
+  /* Close Button */
+}
+#galleryModal .prev, #galleryModal .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+#galleryModal .prev {
+  left: 0;
+}
+#galleryModal .next {
+  right: 0;
+}
+#galleryModal .prev:hover, #galleryModal .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#galleryModal .modal-content {
+  margin: auto;
+  top: 12vh;
+  display: block;
+  width: auto;
+  max-width: 60%;
+  max-height: 60vh;
+}
+#galleryModal .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#galleryModal .close:hover,
+#galleryModal .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #ccc;
+}
+
+#Footer footer {
+  background-color: #207FBF;
+}
+#Footer .navbar-brand {
+  color: #207FBF;
+}
+#Footer .navbar-brand i {
+  color: #E8524B;
+}
+#Footer .navbar-brand span {
+  color: #E8524B;
+}
+#Footer .navbar-brand img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+#Footer .btn-outline-light {
+  background-color: transparent;
+  border-color: white;
+}
+#Footer .btn-outline-light:hover {
+  background-color: #E8524B;
+  border-color: #E8524B;
+  color: white;
+}
+
+/* ============= Conatct Us ==========  */
+#contactus {
+  padding-top: 100px;
+}
+#contactus .card1 {
+  background-color: #207FBF;
+  padding: 10px;
+}
+#contactus .card1 h2 {
+  color: white;
+}
+#contactus button {
+  background-color: #3790cc;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+#contactus i {
+  color: red;
+}
+
+/* ================================= Media Query ========================================  */
+@media (max-width: 1399.99px) {
+  #TopNav .navbar-nav .nav-item {
+    margin-right: 4px;
+  }
+  #TopNav .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-wrap: nowrap;
+  }
+  #TopNav .navbar-nav .nav-item #BookNow {
+    padding: 4px 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-wrap: nowrap;
+  }
+  #bannerCaresoul .carousel-indicators button {
+    visibility: hidden;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item {
+    height: 60vh;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption i {
+    font-size: 30px;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 20px;
+  }
+  #bannerCaresoul .carousel-control-prev {
+    left: 0;
+  }
+  #bannerCaresoul .carousel-control-next {
+    right: 0;
+  }
+  #bannerCaresoul #CaresoulBottomInfo {
+    position: static;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #destination #DestinationNav {
+    margin-top: 40px;
+  }
+  #destination #DestinationNav #destinationNavTab .destination-item img {
+    transition: 0.5s;
+    height: 32vh;
+    width: 100%;
+  }
+  #VancationSection {
+    padding-top: 2vh;
+  }
+  #VancationSection .card .image-container img {
+    height: 30vh;
+    width: 100%;
+  }
+  #packages .tab-content .card {
+    border-radius: 0px;
+  }
+  #packages .tab-content .card img {
+    height: 14vh;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+@media (max-width: 991px) {
+  #TopNav .navbar-nav .nav-item {
+    position: static;
+  }
+  #TopNav .navbar-nav .nav-item .dropdown-menu {
+    position: static;
+    width: auto;
+    top: auto;
+    left: auto;
+    transform: none;
+    display: none;
+  }
+  #TopNav .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  #TopNav #BookNow {
+    max-width: 200px;
+  }
+  #bannerCaresoul {
+    position: relative;
+  }
+  #bannerCaresoul .carousel-indicators button {
+    visibility: hidden;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item {
+    height: 50vh;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption i {
+    font-size: 30px;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 20px;
+  }
+  #bannerCaresoul .carousel-control-prev,
+  #bannerCaresoul .carousel-control-next {
+    visibility: hidden;
+  }
+  #bannerCaresoul .carousel-control-prev {
+    left: 0;
+  }
+  #bannerCaresoul .carousel-control-next {
+    right: 0;
+  }
+  #bannerCaresoul #CaresoulBottomInfo {
+    position: static;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #bannerCaresoul #CaresoulBottomInfo .card .btn {
+    padding: 10px 70px;
+  }
+  #bannerCaresoul #CaresoulBottomInfo .card .lastlabel {
+    display: none;
+  }
+  #Footer .navbar-brand h3 {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 991px) and (max-width: 1199.98px) {
+  #packages .tab-content .card {
+    width: 230px;
+  }
+  #packages .tab-content .card img {
+    height: 14vh;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    cursor: pointer;
+  }
+}
+@media (max-width: 768px) {
+  #packages .tab-content .card img {
+    height: 20vh;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    cursor: pointer;
+  }
+}
+@media (max-width: 476px) {
+  #TopNav .navbar-brand {
+    font-size: 1rem;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item {
+    height: 50vh;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption i {
+    font-size: 22px;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #bannerCaresoul .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 300px) {
+  #destination #DestinationNav .nav-tabs .nav-link {
+    margin-right: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  #destinationNavTab .destination-item img {
+    height: 20vh !important;
+    width: 100%;
+  }
+  #destinationNavTab .destination-overlay h2 {
+    font-size: 16px !important;
+  }
+  #destinationNavTab .destination-overlay h4 {
+    font-size: 16px !important;
+  }
+  #destinationNavTab .destination-overlay span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  #SignUp .bg-registration .bg-primary {
+    font-size: 14px;
+  }
+  #SignUp .bg-registration .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #SignUp .card .card-body {
+    padding: 20px;
+  }
+  #Footer .navbar-brand h3 {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */

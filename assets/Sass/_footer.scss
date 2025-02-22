@@ -1,0 +1,29 @@
+
+
+#Footer{
+  footer{
+    background-color: $text-color;
+  }
+.navbar-brand{
+    color: $text-color;
+    i{
+        color: $base-color;
+    }
+    span{
+        color: $base-color;
+    }
+    img{
+      width: 120px;
+      margin-bottom: 10px;
+    }
+  }
+  .btn-outline-light{
+    background-color: transparent;
+    border-color: white;
+    &:hover{
+      background-color: $base-color;
+      border-color: $base-color;
+      color: white;
+    }
+  }
+}

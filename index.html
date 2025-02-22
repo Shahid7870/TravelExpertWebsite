@@ -1,0 +1,2057 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--Font awesome Version--6-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <title>Travel Expert</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="assets/Sass/style.css">
+
+  <!-- FAVICON  -->
+  <link rel="icon" href="assets/image/fevicon.png" type="image/x-icon">
+
+  <!-- CSS for date-->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css"
+    rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- navbar start here -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white pt-3  shadow-sm" id="TopNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <!-- <i class="fa-solid fa-plane"></i> TRAVEL<span> EXPERT</span> -->
+        <img src="assets/image/logo.jpg" alt="">
+      </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class=" me-auto  mb-lg-0">
+        </ul>
+        <ul class="navbar-nav ms-auto  mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#AboutUs">About</a>
+          </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#destination" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Destinations
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#destination">North India</a></li>
+                <li><a class="dropdown-item" href="#destination">South India</a></li>
+                <li><a class="dropdown-item" href="#destination">East India</a></li>
+                <li><a class="dropdown-item" href="#destination">West India</a></li>
+                <li><a class="dropdown-item" href="#destination">Central India</a></li>
+              </ul>
+            </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#packages" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-expanded="false">
+              Packages
+            </a>
+            <div class="dropdown-menu pt-0 dropdown-menu-end dropdown-menu-lg-start dropdown-menu-center dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
+                <div class="d-flex align-items-start flex-column flex-sm-row p-3">
+                    <div class="me-5">
+                        <!-- <div class="dropdown-header"></div> -->
+                        <a class="dropdown-item" href="#packages">WildLife</a>
+                        <a class="dropdown-item" href="#packages">Hill Station</a>
+                        <a class="dropdown-item" href="#packages">Pilgrimage</a>
+                        <a class="dropdown-item" href="#packages">Heritage</a>
+                    </div>
+                    <div>
+                        <!-- <div class="dropdown-header">Technologies</div> -->
+                        <a class="dropdown-item" href="#packages">Beach</a>
+                        <a class="dropdown-item" href="#packages">Honeymoon</a>
+                        <a class="dropdown-item" href="#packages">Adventure</a>
+                        <a class="dropdown-item" href="#packages">Trekking</a>
+                    </div>
+                    
+
+                   
+                </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#LuxuryTrains">Luxury Trains</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#LuxuryHotels">Luxury Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="contact-us.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-pill" href="#" id="BookNow" data-bs-toggle="modal"
+              data-bs-target="#ModalBooking">Book Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end here -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="ModalBooking" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="ModalBookingLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalRequestLabel">BOOK NOW</h5>
+          <button type="button" class="btn-close bg-white p-1 shadow-none" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <label for="" class="form-label">Full Name (required)</label>
+            <input type="text" class="form-control mb-3" placeholder="" required>
+            <label for="" class="form-label">Email Address (required)</label>
+            <input type="email" class="form-control mb-3" placeholder="" required>
+            <label for="" class="form-label">Phone Number (required)</label>
+            <input type="tel" class="form-control mb-3" placeholder="" required>
+            <label for="" class="form-label">Your Message</label>
+            <textarea class="form-control mb-3" id="" cols="30" rows="4" required></textarea>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- caresoul start -->
+    <section>
+      <div id="bannerCaresoul" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#bannerCaresoul" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#bannerCaresoul" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#bannerCaresoul" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="assets/image/banner4.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption">
+              <h5>Explore India with Our Package</h5>
+              <h1>Explore India, Festivals & <br> Culture </h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/trains.cms" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption">
+              <h5>Explore India with India Travel</h5>
+              <h1>Experience Luxury Trains <br> of India</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/hotels.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption">
+              <h5>Explore India with India Travel</h5>
+              <h1>Experience Unique & Luxury <br> Hotel in India</h1>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCaresoul" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCaresoul" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="container">
+          <div id="CaresoulBottomInfo" class="container mb-5">
+            <div class="card p-2">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                    <label for="" class="form-label">
+                      <h6> <i class="fa-solid fa-user"></i> Traveller Email</h6>
+                    </label>
+                    <input type="email" class="form-control  mb-sm-2 shadow-none" placeholder="Email" required>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <label for="" class="form-label">
+                      <h6> <i class="fa-solid fa-location-pin"></i> Travel place</h6>
+                    </label>
+                    <input type="text" class="form-control  mb-sm-2 shadow-none" placeholder="Place" required>
+                  </div>
+                  <div class="col-md-6 col-lg-2">
+                    <label for="" class="form-label">
+                      <h6> <i class="fa-solid fa-location-pin"></i> Trip In</h6>
+                    </label>
+                    <div class="date" id="date1" data-target-input="nearest">
+                      <input type="text" class="form-control  mb-sm-2 datetimepicker-input mb-4" placeholder="Check in"
+                        data-target="#date1" data-toggle="datetimepicker" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-2">
+                    <label for="" class="form-label">
+                      <h6> <i class="fa-solid fa-location-pin"></i> Trip Out</h6>
+                    </label>
+                    <div class="date" id="date2" data-target-input="nearest">
+                      <input type="text" class="form-control  mb-sm-2 datetimepicker-input mb-4" placeholder="Check out"
+                        data-target="#date2" data-toggle="datetimepicker" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-2">
+                    <label for="" class="form-label lastlabel" style="visibility: hidden;">
+                      <h6>  1</h6>
+                    </label> <br>
+                    <button class="btn mb-2" type="submit">SEND</button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- caresoul end -->
+
+
+      <!-- about us start -->
+      <section id="AboutUs">
+        <div class="container">
+          <div class="text-center mb-3 pb-3">
+            <h6 class=" text-uppercase" style="letter-spacing: 5px; color: #207FBF">About</h6>
+            <h1>About Us</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error modi recusandae laboriosam. Temporibus in, sunt deleniti mollitia maxime laudantium optio quas exercitationem aliquam quod at eum modi consequatur, assumenda reiciendis! Sint, distinctio esse accusantium enim ratione quae harum aliquam praesentium soluta saepe id nemo illo, nisi pariatur delectus vitae quaerat porro numquam minus recusandae eos. Aliquid iure accusantium consequatur officia eum optio dolor expedita deleniti blanditiis vel? Ratione, architecto id!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maiores sint veniam minima praesentium modi vel culpa velit. Fugit unde tenetur qui tempora atque quidem dolorem praesentium earum, voluptatibus vitae.
+              </p>
+              <a href="#" class="btn mb-3" type="button">Read more <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/image/about.jpeg" alt="" class="img-fluid">
+          </div>
+          
+          </div>
+          
+        </div>
+       
+      </section>
+      <!-- about us end -->
+    <!-- Destination Start -->
+    <section id="destination">
+      <div class="text-center mb-3 pb-3">
+        <h6 class=" text-uppercase" style="letter-spacing: 5px; color: #207FBF">Destination</h6>
+        <h1>Explore Top Destinations by Region</h1>
+      </div>
+      <div class="container" id="DestinationNav">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-One-tab" data-bs-toggle="tab" data-bs-target="#nav-One"
+              type="button" role="tab" aria-controls="nav-One" aria-selected="true">North India</button>
+            <button class="nav-link" id="nav-two-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button"
+              role="tab" aria-controls="nav-two" aria-selected="false">South India</button>
+            <button class="nav-link" id="nav-three-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button"
+              role="tab" aria-controls="nav-three" aria-selected="false">East India</button>
+            <button class="nav-link" id="nav-four-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button"
+              role="tab" aria-controls="nav-four" aria-selected="false">West India</button>
+            <button class="nav-link" id="nav-five-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button"
+              role="tab" aria-controls="nav-five" aria-selected="false">Central India</button>
+
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-One" role="tabpanel" aria-labelledby="nav-One-tab">
+            <div class="container-fluid py-5" id="destinationNavTab">
+              <div class="container">
+                <div class="row me-0">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/destination-1.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Uttrakhand</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/destination-2.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Rajasthan</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/destination-3.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Himachal</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/destination-4.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Delhi</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/destination-5.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Laddakh</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/destination-6.webp" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Jammu & Kashmir</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+          <!-- One tab content end -->
+          <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+            <div class="container-fluid py-5" id="destinationNavTab">
+              <div class="container">
+                <div class="row me-0">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/kerala.webp" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Kerala</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/karnataka.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Karnatka</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/tamilNadu.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Tamil Nadu</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/andaman.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Andaman</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/puducherry.webp" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Puducherry</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/telangana.jpeg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Telangana</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- two tab content end -->
+          <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
+            <div class="container-fluid py-5" id="destinationNavTab">
+              <div class="container">
+                <div class="row me-0">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/sikkim.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Sikkim</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/arunachal.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Arunachal</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/wb.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">West Bangal</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/nagaland.webp" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Nagaland</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/assam.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Assam</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/odisha.webp" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Odisha</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- three tab content end -->
+          <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab">
+            <div class="container-fluid py-5" id="destinationNavTab">
+              <div class="container">
+                <div class="row me-0">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/goa.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Goa</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/gujarat.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Gujarat</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/maharashtra.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Maharashtra</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/daman.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Daman & Diu</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/pune.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Pune</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/dadra.webp" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Dadra</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- four tab content end -->
+          <div class="tab-pane fade" id="nav-five" role="tabpanel" aria-labelledby="nav-five-tab">
+            <div class="container-fluid py-5" id="destinationNavTab">
+              <div class="container">
+                <div class="row me-0">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/mp.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Madhya Pradesh</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/Chattisgarh.jpeg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Chattisgarh</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/bhopal.jpeg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Bhopal</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/Ujain.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Ujain</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/Khajuraho.jpg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Khajuraho</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                      <img class="img-fluid" src="assets/image/Bandhavgarh.jpeg" alt="">
+                      <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                        <h2 class="text-white">Bandhavgarh</h2>
+                        <span>30+ Packages</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- five tab content end -->
+        </div>
+      </div>
+    </section>
+    <!-- Destination Start -->
+
+
+    <!-- Top Trending Destinations start -->
+    <section id="VancationSection">
+      <div class="container">
+        <div class="row" id="Vacation">
+          <div class="text-center mb-3 pb-3">
+            <h6 class=" text-uppercase" style="letter-spacing: 5px; color: #207FBF">Top Destination</h6>
+            <h1>Top Trending Destinations</h1>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <div class="image-container">
+                <img src="assets/image/des1.avif" alt="Your Image" class="img-fluid">
+                <div class="card-footer">
+                  <p>50+ Packages</p>
+                  <h6>Uttrakhand</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <div class="image-container">
+                <img src="assets/image/kerala.webp" alt="Your Image" class="img-fluid">
+                <div class="card-footer">
+                  <p>50+ Packages</p>
+                  <h6>Kerala</h6>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <div class="image-container">
+                <img src="assets/image/bhutan.webp" alt="Your Image" class="img-fluid">
+                <div class="card-footer">
+                  <p>50+ Packages</p>
+                  <h6>Bhutan</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <div class="image-container">
+                <img src="assets/image/sikkim.jpg" alt="Your Image" class="img-fluid">
+                <div class="card-footer">
+                  <p>50+ Packages</p>
+                  <h6>Sikkim</h6>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <div class="image-container">
+                <img src="assets/image/thialand.jpeg" alt="Your Image" class="img-fluid">
+                <div class="card-footer">
+                  <p>50+ Packages</p>
+                  <h6>Thailand</h6>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <div class="image-container">
+                <img src="assets/image/jammu.jpeg" alt="Your Image" class="img-fluid">
+                <div class="card-footer">
+                  <p>50+ Packages</p>
+                  <h6>Jammu & Kashmir</h6>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Top Trending Destinations end -->
+
+    <!-- packages start -->
+    <section id="packages">
+      <div class="container">
+        <div class="text-center mb-3 pb-3">
+          <h6 class=" text-uppercase" style="letter-spacing: 5px; color: #207FBF">Packages</h6>
+          <h1>Packages By Interest</h1>
+        </div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active rounded-pill" id="pills-wildlife-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-wildlife" type="button" role="tab" aria-controls="pills-wildlife"
+              aria-selected="true">Wildlife</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-hillstation-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-hillstation" type="button" role="tab" aria-controls="pills-hillstation"
+              aria-selected="false">Hill Station</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Pilgrimage-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-Pilgrimage" type="button" role="tab" aria-controls="pills-Pilgrimage"
+              aria-selected="false">Pilgrimage</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Heritage-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-Heritage" type="button" role="tab" aria-controls="pills-Heritage"
+              aria-selected="false">Heritage</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Beach-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-Beach" type="button" role="tab" aria-controls="pills-Beach"
+              aria-selected="false">Beach</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Honeymoon-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-Honeymoon" type="button" role="tab" aria-controls="pills-Honeymoon"
+              aria-selected="false">Honeymoon</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Adventure-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-Adventure" type="button" role="tab" aria-controls="pills-Adventure"
+              aria-selected="false">Adventure</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Trekking-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-Trekking" type="button" role="tab" aria-controls="pills-Trekking"
+              aria-selected="false">Trekking</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-wildlife" role="tabpanel"
+            aria-labelledby="pills-wildlife-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/wildlife.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">India Tiger Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of Wildlife -->
+          <div class="tab-pane fade" id="pills-hillstation" role="tabpanel" aria-labelledby="pills-hillstation-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/hillstation.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of Kumaon Hills</h6>
+                        <p class="card-text"> Nights - 6 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of hillstation -->
+          <div class="tab-pane fade" id="pills-Pilgrimage" role="tabpanel" aria-labelledby="pills-Pilgrimage-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/Pilgrimage.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Chardham Tour</h6>
+                        <p class="card-text">11 Nights - 12 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of Pilgrimage -->
+          <div class="tab-pane fade" id="pills-Heritage" role="tabpanel" aria-labelledby="pills-Heritage-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/heritage.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Golden Triangle Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of Heritage -->
+          <div class="tab-pane fade" id="pills-Beach" role="tabpanel" aria-labelledby="pills-Beach-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/beach.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best of India Beach</h6>
+                        <p class="card-text">10 Nights - 11 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of beach -->
+          <div class="tab-pane fade" id="pills-Honeymoon" role="tabpanel" aria-labelledby="pills-Honeymoon-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/honeymoon.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Honeymoon Tour</h6>
+                        <p class="card-text">6 Nights - 7 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of Honeymoon -->
+          <div class="tab-pane fade" id="pills-Adventure" role="tabpanel" aria-labelledby="pills-Adventure-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/adventure.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Best Adventure Tour</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of Adventure -->
+          <div class="tab-pane fade" id="pills-Trekking" role="tabpanel" aria-labelledby="pills-Trekking-tab">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/image/trekking.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Adi Kailash Trek</h6>
+                        <p class="card-text">13 Nights - 14 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content of Trekking -->
+        </div>
+
+      </div>
+    </section>
+    <!-- packages end -->
+
+  <!-- Luxury Train start -->
+    <section id="LuxuryTrains">
+      <div class="container">
+        <div class="text-center mb-3 pb-3">
+          <h6 class=" text-uppercase" style="letter-spacing: 5px; color: #207FBF">Luxury Trains</h6>
+          <h1>Explore Luxury Trains</h1>
+        </div>
+        <div class="container-fluid py-5" id="destinationNavTab">
+          <div class="container">
+            <div class="row me-0">
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="destination-item position-relative overflow-hidden mb-2">
+                  <img class="img-fluid" src="assets/image/train1.jpg" alt="">
+                  <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                    <h4 class="text-white">Maharaja's Express</h4>
+                    <span>5+ Packages</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="destination-item position-relative overflow-hidden mb-2">
+                  <img class="img-fluid" src="assets/image/train2.jpeg" alt="">
+                  <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                    <h4 class="text-white">Palace on Wheels</h4>
+                    <span>5+ Packages</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="destination-item position-relative overflow-hidden mb-2">
+                  <img class="img-fluid" src="assets/image/destination-3.jpg" alt="">
+                  <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                    <h4 class="text-white">Deccan Odyssey</h4>
+                    <span>5+ Packages</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="destination-item position-relative overflow-hidden mb-2">
+                  <img class="img-fluid" src="assets/image/train4.webp" alt="">
+                  <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                    <h4 class="text-white">Golden Chariot</h4>
+                    <span>5+ Packages</span>
+                  </a>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+  <!-- Luxury Train end -->
+
+  
+  <!-- Luxury Hotels start -->
+  <section id="LuxuryHotels">
+    <div class="container">
+      <div class="text-center mb-3 pb-3">
+        <h6 class=" text-uppercase" style="letter-spacing: 5px; color: #207FBF">Luxury Hotels</h6>
+        <h1>Explore Luxury Hotels</h1>
+      </div>
+      <div class="container-fluid py-5" id="destinationNavTab">
+        <div class="container">
+          <div class="row me-0">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="destination-item position-relative overflow-hidden mb-2">
+                <img class="img-fluid" src="assets/image/hotel1.jpg" alt="">
+                <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                  <h4 class="text-white">Umaid Bhawan</h4>
+                  <span>5+ Packages</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="destination-item position-relative overflow-hidden mb-2">
+                <img class="img-fluid" src="assets/image/hote2.jpg" alt="">
+                <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                  <h4 class="text-white">Stok Palace</h4>
+                  <span>5+ Packages</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="destination-item position-relative overflow-hidden mb-2">
+                <img class="img-fluid" src="assets/image/hotel3.jpg" alt="">
+                <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                  <h4 class="text-white">Taj Lake Palace</h4>
+                  <span>5+ Packages</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="destination-item position-relative overflow-hidden mb-2">
+                <img class="img-fluid" src="assets/image/hotel4.jpeg" alt="">
+                <a class="destination-overlay text-white text-decoration-none stretched-link" href="#">
+                  <h4 class="text-white">Carnoustie Ayurveda & Wellness Resort</h4>
+                  <span>5+ Packages</span>
+                </a>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+<!-- Luxury Hotels end -->
+
+    <!-- Registration Start -->
+    <section id="SignUp">
+      <div class="container-fluid bg-registration py-5">
+        <div class="container py-5">
+          <div class="row me-0 align-items-center">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <div class="mb-4">
+                <h6 class=" text-uppercase" style="letter-spacing: 5px; color: white; font-weight: bolder;">Mega Offer
+                </h6>
+                <h1 class="text-white"><span class="text-primary">30% OFF</span> For Couple</h1>
+              </div>
+              <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut
+                sed eos,
+                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
+                dolor</p>
+              <ul class="list-inline text-white m-0">
+                <li class="py-2"><i class="fa fa-check text-primary me-3"></i> Labore eos amet dolor amet diam</li>
+                <li class="py-2"><i class="fa fa-check text-primary me-3"></i> Etsea et sit dolor amet ipsum</li>
+                <li class="py-2"><i class="fa fa-check text-primary me-3"></i> Diam dolor diam elitripsum vero.</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="card border-0">
+                <div class="card-header bg-primary text-center p-3">
+                  <h1 class="text-white m-0">Enquiry Now</h1>
+                </div>
+                <div class="card-body rounded-bottom bg-white">
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control p-2 mb-3 shadow-none" placeholder="Your name" required="required" />
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control p-2 mb-3 shadow-none" placeholder="Your email" required="required" />
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" class="form-control p-2 mb-3 shadow-none" placeholder="Your number" required="required" />
+                    </div>
+                    <textarea name="" class="form-control mb-3 shadow-none" id="" cols="30" rows="3"
+                      placeholder="Message"></textarea>
+                    <div class="d-grid gap-2">
+                      <button class="btn btn-primary btn-block" type="submit">Enquiry Now</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Registration End -->
+  </main>
+
+
+  <!-- Footer Start -->
+  <div  id="Footer">
+    <footer class="text-center text-lg-start text-white" >
+      <div class="container pb-0 py-5">    
+        <div class="row me-0">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <a href="index.html" class="navbar-brand">
+              <!-- <h3 class="text-white"><i class="fa-solid fa-plane"></i> TRAVEL<span> EXPERT</span> </h3> -->
+              <img src="assets/image/logo-white-textWhite.png" alt="">
+          </a>
+         
+          <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, officia!.
+          </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Destinations</h6>
+            <p>
+                <a class="text-white" href="#">North India</a>
+            </p>
+            <p>
+                <a class="text-white" href="#">South India</a>
+            </p>
+            <p>
+                <a class="text-white" href="#">East India</a>
+            </p>
+            <p>
+                <a class="text-white" href="#">West India</a>
+            </p>
+            <p>
+              <a class="text-white" href="#">Central India</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+          </h6>
+          <p>
+              <a class="text-white" href="index.html">Home</a>
+          </p>
+          <p>
+              <a class="text-white" href="#">About Us</a>
+          </p>
+          <p>
+              <a class="text-white" href="contact-us.html">Conatct Us</a>
+          </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p><i class="fas fa-home mr-3"></i> A-21 ,Sector-67, Noida UP</p>
+          <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +91 9999999999</p>
+          </div>
+        </div>
+          <hr class="my-3">
+          <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+              <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                  © 2024 Copyright:
+                  <a class="text-white" href="#https://magicwebservices.com/" target="_blank"
+                  > Magic web services</a
+                  >
+              </div>
+              <!-- Copyright -->
+              </div>
+
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Facebook -->
+              <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  class="text-white"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                  ></a>
+
+              <!-- Twitter -->
+              <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  class="text-white"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                  ></a>
+
+              <!-- Google -->
+              <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  class="text-white"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                  ></a>
+
+              <!-- Instagram -->
+              <a
+                  class="btn btn-outline-light btn-floating m-1"
+                  class="text-white"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                  ></a>
+              </div>
+          </div>
+          </section>
+          <!-- Section: Copyright -->
+      </div>
+    </footer>
+
+  </div>
+  
+   
+  <!-- Footer End -->
+
+
+  <!-- bootstrap -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+  <!-- JavaScript for date-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/en-au.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- external js for date picker -->
+  <script src="assets/js/datepicker.js"></script>
+</body>
+
+</html>

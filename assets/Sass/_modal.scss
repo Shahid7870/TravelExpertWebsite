@@ -1,0 +1,23 @@
+#ModalBooking{
+    .modal-content{
+        .modal-header{
+            background-color: $base-color;
+            color: white;
+        }
+        input{
+            background-color: #f2f2f2;
+            box-shadow: none;
+        }
+        textarea{
+            background-color: #f2f2f2;
+            box-shadow: none;
+        }
+        button{
+            background-color: $base-color;
+            color: white;
+            padding: 10px 50px;
+            border-radius: 0;
+        }
+    }
+   
+}

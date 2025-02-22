@@ -1,0 +1,382 @@
+/* ================================= Media Query ========================================  */
+
+@media (max-width: 1399.99px) { 
+    #TopNav{        
+        .navbar-nav{
+            .nav-item{
+                margin-right: 4px;
+                .nav-link{
+                    // color: rgb(51, 49, 49);
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    text-wrap: nowrap;
+                }
+    
+                #BookNow{
+                    padding: 4px 20px;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    text-wrap: nowrap;
+                }
+              
+            }
+          
+        }
+       
+    }
+    #bannerCaresoul{
+      .carousel-indicators{
+          button{
+              visibility: hidden;
+          }
+      }
+      .carousel-inner{
+          .carousel-item{
+              height: 60vh;
+              .carousel-caption {
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  left: 0;
+                  right: 0;
+                  text-align: center;
+                i{
+                  font-size: 30px;
+                }
+              h1{
+                  font-size: 50px;
+                  font-weight: bolder;
+              }
+              p{
+                  font-size: 20px;
+              }
+                
+              }
+              
+          }
+         
+      }
+
+  .carousel-control-prev {
+      left: 0;
+  }
+
+  .carousel-control-next {
+      right: 0;
+  }
+
+      #CaresoulBottomInfo{
+          position: static;
+          margin-top: 10px;
+          margin-left: 50%;
+          transform: translateX(-50%);
+
+        
+      }
+      
+  }
+
+  // Destinations
+  #destination{
+    #DestinationNav{
+      margin-top: 40px;
+      #destinationNavTab{
+        .destination-item img {
+          transition: 0.5s;
+          height: 32vh;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #VancationSection {
+    padding-top: 2vh;
+  .card{
+    .image-container {
+      img{
+        height: 30vh;
+        width: 100%;
+      }
+    }
+     
+     
+  }
+  
+  
+   
+  }
+
+  #packages{
+    .tab-content{
+      .card{ 
+        border-radius: 0px;
+        img{
+          height: 14vh; 
+          width: 100%;
+          cursor: pointer;
+        }
+      
+      }
+    }
+   
+  }
+}
+
+ @media (max-width: 991px) { 
+ 
+    #TopNav{    
+        .navbar-nav {
+            .nav-item {
+                position: static;
+                .dropdown-menu {
+                    position: static;
+                    width: auto;
+                    top: auto;
+                    left: auto;
+                    transform: none;
+                    display: none;
+                }
+            }
+    
+            .nav-item:hover .dropdown-menu {
+                display: block;
+            }
+        }
+
+        #BookNow{
+           max-width: 200px;
+        }
+    }
+
+    #bannerCaresoul{
+        position: relative;
+        .carousel-indicators{
+            button{
+                visibility: hidden;
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                height: 50vh;
+    
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+    
+                .carousel-caption {
+                    position: absolute;
+                    top: 60%;
+                    transform: translateY(-50%);
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                  i{
+                    font-size: 30px;
+                  }
+                h1{
+                    font-size: 50px;
+                    font-weight: bolder;
+                }
+                p{
+                    font-size: 20px;
+                }
+                  
+                }
+                
+            }
+           
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+        visibility: hidden;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+
+        #CaresoulBottomInfo{
+            position: static;
+            margin-top: 10px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+
+            .card{
+              .btn{
+                padding: 10px 70px;
+              }
+              .lastlabel{
+                display: none;
+              }
+          }
+        }
+        
+    }
+    #Footer{  
+        .navbar-brand{
+              h3{
+                  font-size: 20px!important;
+              }
+          }
+        }
+ }
+
+ @media (min-width: 991px) and (max-width: 1199.98px) { 
+    #packages{
+        .tab-content{
+          .card{
+            width: 230px;
+            img{
+              height: 14vh; 
+              width: 100%;
+              object-fit: cover;
+              cursor: pointer;
+            }
+           
+          }
+        }
+       
+      }
+  }
+
+
+ @media (max-width: 768px) { 
+    #packages{
+      
+        .tab-content{
+          .card{
+            img{
+              height: 20vh; 
+              width: 100%;
+              object-fit: cover;
+              cursor: pointer;
+            }
+           
+          }
+        }
+       
+      }
+ }
+
+
+ @media (max-width: 476px) { 
+    #TopNav{
+
+        .navbar-brand {
+            font-size: 1rem;          
+           
+        }
+    }
+    #bannerCaresoul{
+        .carousel-inner{
+            .carousel-item{
+                height: 50vh;
+    
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+    
+                .carousel-caption {
+                    position: absolute;
+                    top: 60%;
+                    transform: translateY(-50%);
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                  
+                    i{
+                        font-size: 22px;
+                      }
+                h1{
+                    font-size: 30px;
+                    font-weight: bolder;
+                }
+                p{
+                    font-size: 18px;
+                }
+                 
+                }
+                
+            }
+           
+        }
+        
+    }
+ }
+
+
+ @media (max-width: 300px){
+    #destination{
+        #DestinationNav{
+          .nav-tabs{
+            .nav-link{
+              margin-right: 5px;
+              padding-bottom: 10px;
+              font-size: 14px;
+              font-weight: 500;
+            }
+          } 
+         
+        }
+      }
+      #destinationNavTab{
+        .destination-item img {
+          height: 20vh !important;
+          width: 100%;
+        }
+        .destination-overlay {
+          
+          h2{
+            font-size: 16px !important;
+          }
+          h4{
+            font-size: 16px !important;
+          }
+          span{
+             font-weight: 500;
+             font-size: 14px;
+          }
+        }
+        
+      
+      }
+
+      #SignUp{
+        .bg-registration {
+            .bg-primary {
+                font-size: 14px;
+              }
+          .btn-primary{
+            padding: 10px 20px;
+              font-size: 16px;
+              font-weight: 500;
+          }
+        }
+        .card{
+          .card-body{
+            padding: 20px;
+          }
+        }
+      }
+
+      #Footer{  
+      .navbar-brand{
+            h3{
+                font-size: 16px;
+            }
+        }
+      }
+ }

@@ -1,0 +1,83 @@
+
+/* ============================================== Navbar ===================================================  */
+
+/* ============= TopNav ==========  */
+
+//  Top Nav
+
+
+#TopNav{
+
+    .navbar-brand {
+        display: inline-block;
+        font-size: 1.25rem;
+        font-weight: bolder;
+        line-height: inherit;
+        white-space: nowrap;
+        color: $text-color;
+        i{
+            color: $base-color;
+        }
+        span{
+            color: $base-color;
+        }
+        
+        img{
+            width: 90px;
+        }
+       
+    }
+    
+    .navbar-nav{
+        .nav-item{
+            margin-right: 15px;
+            position: relative;
+            .nav-link{
+                color: rgb(51, 49, 49);
+                font-size: 18px;
+                font-weight: 500;
+                text-transform: capitalize;
+                &:hover{
+                    color: $base-color;
+                    .dropdown-menu {
+                        display: block;
+                    }
+                }
+            }
+
+            .dropdown-menu{
+                // width: 15vw;
+                // padding: 4px 8px 4px 8px;
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: none;
+                .dropdown-item{
+                    // margin-top: 10px;
+                    font-weight: 500;
+                    &:hover{
+                        color: $base-color;
+                        background-color: transparent;
+                    }
+                }
+            }
+
+            #BookNow{
+                background-color: $base-color;
+                color: white;
+                padding: 2px 20px;
+                margin-top: 5px;
+                margin-left: 20px;
+                border-radius: 5px;
+            }
+             i{
+                    color: $base-color;
+                }
+        }
+      
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+}
